@@ -70,25 +70,29 @@ let string = `
   margin: 0;
   padding: 0;
 }
-
+#html {
+  word-break: break-all;
+}
 #html {
   word-break: break-all;
 }
 
-@media (max-width:500px) {
-    #html{
-        overflow: auto;
-        height:50vh;
-    }
-    #div1 {
-      position: relative;
-        top: 0;
-        right: 0;
-    }
-    #div1Wrapper{
-        height:50vh; 
-    }
+@media (max-width: 500px) {
+  #html {
+    overflow: auto;
+    height: 50vh;
+  }
+  #div1 {
+    position: relative;
+    top: 0;
+    right: 0;
+  }
+
+  #div1Wrapper {
+    height: 50vh;
+  }
 }
+
   
 `;
 let string2='';           
